@@ -1,0 +1,107 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header (H1) styling */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* List styling for the agenda items */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Styling for each agenda item (li) */
+li {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Make the subject and other labels bold */
+li strong {
+    color: #333;
+}
+
+/* Links for edit and delete actions */
+li a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Divider between agenda items */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+/* Message when no results are found */
+p {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
+/* Container for the detail view */
+.detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the detail item */
+.detail-item {
+    margin-bottom: 20px;
+}
+
+/* H2 styling in detail view */
+h2 {
+    color: #333;
+}
+
+/* Links in detail view */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block; /* Makes links act like buttons */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Message when no results are found */
+p {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
